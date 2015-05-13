@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:weightSum="1">
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center|end" android:layout_marginRight="10dp">
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="github project" android:id="@+id/textView5" android:textColor="#ff61cafc" android:textStyle="italic" android:textSize="10sp" android:paddingRight="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/androiddev"
+            android:clickable="true"
+            android:src="@drawable/dac_logo"
+            android:onClick="goToDev"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/apple_touch_icon"
+            android:onClick="goToUnicode"/>
+
         <ImageView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/github" android:src="@drawable/github" android:onClick="goTogithub"/>
+
     </LinearLayout>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="TextClock" android:id="@+id/textView" android:textStyle="bold|italic" android:typeface="serif" android:textColor="#ffffffff" android:layout_marginBottom="10dp"/>
     <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:background="#80fcffb3" android:padding="10dp">
