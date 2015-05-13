@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:paddingTop="10dp">
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="EEEE, dd/MM/yyyy hh:mm:s aa" android:format24Hour="EEEE, dd/MM/yyyy hh:mm:s" android:textColor="#ffffffff"/>
+    <EditText android:layout_width="250dp" android:layout_height="100dp" android:layout_gravity="center" android:id="@+id/copytxt2" android:editable="false" android:background="#90ff471d" android:textColor="#ffffffff" android:textSize="9sp" android:text="@string/jam2"/>
+    <Button android:layout_width="250sp" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/copy2" android:text="Copy to Clipboard" android:background="@drawable/gaya0"/>
+</LinearLayout>

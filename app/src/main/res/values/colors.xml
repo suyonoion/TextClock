@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	
+	<color name="tabMedium">#00000000</color>
+	<color name="tabDark">#00000000</color>
+	<color name="tabTransparent">#00000000</color>
+
+</resources>

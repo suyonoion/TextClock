@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:weightSum="1">
+
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="h:mm:s aa" android:format24Hour="h:mm:s" android:textColor="#ffffffff"/>
+
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="EEEE, h:mm:s aa" android:format24Hour="EEEE, h:mm:s" android:textColor="#ffffffff" android:textSize="20sp"/>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="EEEE, " android:format24Hour="h" android:textColor="#ff29ff0e" android:textSize="20sp"/>
+        <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="h:" android:format24Hour="h:" android:textColor="#fffbc6ff" android:textSize="20sp"/>
+        <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="mm:" android:format24Hour="mm:" android:textColor="#ff8efffc" android:textSize="20sp"/>
+        <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="s" android:format24Hour="s" android:textColor="#ffffe8ba" android:textSize="20sp"/>
+        <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour=" aa" android:format24Hour=" " android:textColor="#ffffe8ba" android:textSize="20sp"/>
+    </LinearLayout>
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="EEEE, dd/MM/yyyy hh:mm:s aa" android:format24Hour="EEEE, dd/MM/yyyy hh:mm:s" android:textColor="#ffffffff"/>
+
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="EEEE, dd/MM/yyyy" android:format24Hour="EEEE, dd/MM/yyyy" android:textSize="25sp" android:textColor="#ffffffff"/>
+
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="dd-MM-yyyy" android:format24Hour="dd/MM/yyyy" android:textSize="25sp" android:textColor="#ffffffff"/>
+
+</LinearLayout>

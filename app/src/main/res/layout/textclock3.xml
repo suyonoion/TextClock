@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:paddingTop="10dp">
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="EEEE, dd/MM/yyyy" android:format24Hour="EEEE, dd/MM/yyyy" android:textSize="25sp" android:textColor="#ffffffff"/>
+    <EditText android:layout_width="250dp" android:layout_height="100dp" android:layout_gravity="center" android:id="@+id/copytxt3" android:background="#90ff471d" android:textColor="#ffffffff" android:editable="false" android:text="@string/jam3" android:textSize="9sp"/>
+    <Button android:layout_width="250sp" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/copy3" android:text="Copy to Clipboard" android:background="@drawable/gaya0"/>
+    <ImageView android:layout_width="fill_parent" android:layout_height="2dp" android:id="@+id/imageView2" android:src="#90ffe2ae" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="dd-MM-yyyy" android:format24Hour="dd/MM/yyyy" android:textSize="25sp" android:textColor="#ffffffff"/>
+    <EditText android:layout_width="250dp" android:layout_height="100dp" android:layout_gravity="center" android:id="@+id/copytxt4" android:editable="false" android:background="#90ff471d" android:textColor="#ffffffff" android:text="@string/jam4" android:textSize="9sp"/>
+    <Button android:layout_width="250sp" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/copy4" android:text="Copy to Clipboard" android:background="@drawable/gaya0"/>
+</LinearLayout>
